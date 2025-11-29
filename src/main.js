@@ -178,7 +178,7 @@ gltfLoader.setDRACOLoader(dracoLoader);
 
 // === CHARGEMENT RAPIDE DE TON MODELE DRACO ===
 gltfLoader.load(
-  "/assets/3DportefolioV4_Draco.glb",  
+  "./assets/3Dportofolio3.glb",  
   (gltf) => {
 
     //je supprime la camera de mon fichier blender 
