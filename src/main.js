@@ -170,7 +170,7 @@ animateFakeProgress();
 
 // === DRACO LOADER ===
 const dracoLoader = new DRACOLoader();
-dracoLoader.setDecoderPath("/draco/"); // fichier draco recuperer dans public
+dracoLoader.setDecoderPath("./draco/"); // fichier draco recuperer dans public
 
 // === GLTF LOADER AVEC DRACO ===
 const gltfLoader = new GLTFLoader();
