@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/my-3d-project/",
+  base: "/my-3d-project",
 });
