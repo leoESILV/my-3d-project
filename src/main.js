@@ -158,7 +158,7 @@ function animateFakeProgress() {
 
   loaderBar.style.width = fakeProgress + "%";
   loaderPercent.textContent = fakeProgress.toFixed(0) + "%";
-
+ 
   if (downloadDone && fakeProgress > 99.5) {
     loaderWrapper.style.opacity = "0";
     setTimeout(() => (loaderWrapper.style.display = "none"), 600);
@@ -170,14 +170,14 @@ animateFakeProgress();
 
 // === DRACO LOADER ===
 const dracoLoader = new DRACOLoader();
-dracoLoader.setDecoderPath("./draco/"); // fichier draco recuperer dans public
+dracoLoader.setDecoderPath("./draco/"); // fichier draco recuperer 
 
 // === GLTF LOADER AVEC DRACO ===
 const gltfLoader = new GLTFLoader();
 gltfLoader.setDRACOLoader(dracoLoader);
 
 // === CHARGEMENT RAPIDE DE TON MODELE DRACO ===
-gltfLoader.load("./assets/3Dportofolio3.glb",  
+gltfLoader.load("./assets/3Dportofolio4.glb",  
   (gltf) => {
 
     //je supprime la camera de mon fichier blender 
