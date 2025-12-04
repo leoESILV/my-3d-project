@@ -3,7 +3,7 @@
 
 import "./style.scss"; // utilisation de Vite , pas importer css dans html
 
-import { Howl } from "howler"; // Librairie Musique
+// import { Howl } from "howler"; // Librairie Musique
 
 
 import * as THREE from "three";
