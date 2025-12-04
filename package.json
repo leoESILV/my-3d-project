@@ -9,9 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
-  "devDependencies": {
+  "devDependencies": { 
     "sass-embedded": "^1.93.3",
     "vite": "^7.2.4"
   },

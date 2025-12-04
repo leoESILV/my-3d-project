@@ -12,6 +12,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js"; // charger rapidement les  fichiers 3D 
 
 
+
 /*== Son ==n
 const music_background = new Howl({
   src: ["/assets/music_death_note.ogg"],

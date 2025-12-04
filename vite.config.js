@@ -11,6 +11,6 @@ export default defineConfig({
   base: '/my-3d-project/',
   appType: 'spa',
   build: {
-    outDir: 'dist'
+    outDir: 'docs'
   },
 })
